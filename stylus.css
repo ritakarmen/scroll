@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(0,0,0,0.5);
+  font-size: 2rem;
+  min-height: 100%;
+  height: 100vh;
+}
+.Quick-navigation {
+  position: fixed;
+  z-index: 1;
+  margin: 0;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.Quick-navigation-item {
+  color: rgba(0,0,0,0.4);
+  text-decoration: none;
+  font-size: 1.3em;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  padding: 0.5em;
+  display: block;
+}
+.Quick-navigation-item:hover,
+.Quick-navigation-item.current {
+  color: #fff;
+}
+
+#A {
+  background-color: #dc143c;
+}
+#B {
+  background-color: #9420eb;
+  height: 600px;
+}
+#C {
+  background-color: #39eb20;
+}
+#D {
+  background-color: #ebb420;
+  height: 200px;
+}
+#E {
+  background-color: #8ADFCD;
+}
+#F {
+  background-color: #f26a85;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1400px;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+}
+.uno{
+    height: 410px;
+    float: left;
+    position: fixed;
+}
+.frame{
+	padding-top: 60px;
+    padding-left: 20px;
+}
+.dos{
+	height: 300px;
+}
+p {
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 820px;
+    float: right;
+    color: #fff;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    float: right;
+    color: #fff;
+}
